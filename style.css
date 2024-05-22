@@ -669,6 +669,9 @@ font-size: 12px;
     text-align: end;
     
 }
+.checkbox img{
+    width: 100%;
+}
 .checkbox select{
     margin: 10px;
     width: 150px;
@@ -811,6 +814,13 @@ font-size: 12px;
     .sec5_img_container,.sec6_card_container{
         display: block;
     }
+    .sec6_card {
+        width: 100%;
+    }
+    .sec8_card img{
+        width: 100%;
+    }
+   
     .sec5_1,.sec5_2{
         
         font-size: 100%;
@@ -858,6 +868,9 @@ width: 70%;
     font-size: 60%;
     font-family: 'Times New Roman', Times, serif;
  margin-bottom: 10%;
+}
+.logo{
+    display: none;
 }
 
 }
