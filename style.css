@@ -1,8 +1,9 @@
 * {
-    margin: 0px;
-    padding: 0px;
-
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
 }
+
 
 @font-face {
     font-family: 'Trip Sans Ultra';
@@ -77,10 +78,7 @@
 .navbar {
     margin-top: 0px;
     font-family: 'Trip Sans';
-    margin-left: 27.6px;
-    margin-right: 27.6px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 15px 8%;
     position: sticky;
     top: 0px;
     z-index: 1;
@@ -181,7 +179,8 @@
 
 
 .sec2 {
-    margin-top: 48px;
+    padding:40px 8%;
+    padding-bottom: 0px;
 }
 
 .h1 {
@@ -197,19 +196,19 @@
 }
 
 .sec2_categories {
-    height: 30px;
-    margin-top: 32px;
+   
+    
     gap: 22px;
     padding: 10px;
     font-family: 'Trip sans';
     font-weight: 500;
     font-size: 18px;
-    margin-bottom: 16px;
+    
 }
 
 .sec2_categories p {
     padding-bottom: 6px;
-    margin-bottom: 0px;
+    margin-bottom:10px ;
 }
 
 .sec2_categories p:hover {
@@ -223,8 +222,8 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-left: 5%;
-    margin-right:5% ;
+
+   
 }
 
 .sec3_input {
@@ -271,24 +270,18 @@
 .sec4 {
     
     font-family: 'Trip sans';
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-top: 64px;
-   
-
-}
-
-.sec4_img {
     position: relative;
-    border-radius: 10px;
     background: linear-gradient(90deg, #D4DEF7, #DCC9FF);
-    width: 100%;
-   
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: 5%;
+    margin-left: 5%;
+    
 }
 
-img {
+
+
+.sec4 img {
     width: 100%;
     object-fit: cover;
 
@@ -336,9 +329,7 @@ img {
 
 .sec4_4 {
     margin-top: 7px;
-    
-    width: fit-content;
-    padding-left: 24px;
+     padding-left: 24px;
     padding-right: 24px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -360,11 +351,11 @@ img {
 }
 
 .sec5 {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
+  
     font-family: 'Trip sans';
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40px;
     
     
 
@@ -381,7 +372,7 @@ img {
     display: flex;
     justify-content: space-between;
     
- 
+    
     
    
 
@@ -392,7 +383,7 @@ img {
     
     position: relative;
     
-
+    
 }
 .sec5_img :hover{
     opacity: 0.7;
@@ -407,7 +398,7 @@ img {
     
 }
 .sec5_img img{
-    
+    width: 100%;
     border-radius: 10px;
 }
 .sec5_img h3 {
@@ -421,12 +412,14 @@ img {
     line-height: 30px;
 }
 .sec6,.sec7,.sec8,.sec9,.sec10,.sec11,.sec12{
-    margin-top: 5px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
+   
+    
     font-family: 'Trip sans';
+}
+.sec6{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40px;
 }
 .sec6_card{
     width: 250px;
@@ -512,9 +505,14 @@ margin: 0px;
 
 /* above heart effect */
 
-
+.sec7{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40px;
+}
 .sec8{
     background-color: #faf1ed;
+    padding: 20px 5%;
 }
 .sec8_1 h2{
 font-weight: 500;
@@ -548,9 +546,17 @@ text-align: center;
 font-weight: 500;
 font-size: 18px;
 }
+.sec9{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40px;
+}
+
 .sec10{
     background-color: #fff7e1;
     display:flex;
+    margin-top: 40px;
+    padding: 40px 5%;
 }
 .sec10_1,.sec10_2{
     width:50%;
@@ -595,6 +601,7 @@ font-size: 18px;
     justify-content: space-between;
     margin-top: 40px;
     margin-bottom: 0px;
+    padding: 20px 5%;
 }
 
 .sec11_1{
@@ -617,6 +624,7 @@ font-size: 18px;
 .sec12{
     background-color: #faf1ed;
     margin-top: 0px;
+    padding: 0 5%;
 
 }
 .sec12_1{
