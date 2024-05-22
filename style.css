@@ -83,6 +83,7 @@
     top: 0px;
     z-index: 1;
     background-color: white;
+   
 }
 .navbar_logo{
     display: flex;
@@ -98,6 +99,7 @@
     border: solid black 1.5px;
     padding: 3px;
     border-radius: 30px;
+    
     
 }
 .navbar,
@@ -872,5 +874,14 @@ width: 70%;
 .logo{
     display: none;
 }
-
+.navbar_logo{
+    position: relative;
+}
+.navbar_logo img {
+    margin-left: 26%;
+}
+.fa-user{
+    position: absolute;
+    left: 100%;
+}
 }
